@@ -1,0 +1,40 @@
+.pace .pace-progress {
+  background: #000;
+  position: fixed;
+  z-index: 2000;
+  top: 0;
+  left: 0;
+  height: 1px;
+  transition: width 1s;
+}
+
+.pace-inactive {
+  display: none;
+}
+
+body {
+  background: #f5f5f5;
+}
+
+.radius {
+  border-radius: 25px;
+  margin-bottom: 15px;
+}
+
+.top {
+  width: 100%;
+  height: 237px;
+  margin-bottom: 10px;
+  background-size: cover;
+  position: absolute;
+  background-position: center center;
+  background-image: url(https://images.pexels.com/photos/4603529/pexels-photo-4603529.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+}
+
+
+.mt {
+  margin-top: 10px;
+}
+.arrangement{
+  z-index: -7;
+}
